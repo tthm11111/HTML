@@ -1,0 +1,133 @@
+
+body {
+    background-color:  whitesmoke; 
+    font-family: sans-serif;
+    color: #070807;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+header,footer {
+    background-color: whitesmoke;
+    border:solid;
+    border-width: 4px;
+    border-color: #070807;
+    padding:10px;
+    color:#070807 ;
+}
+
+h1 {
+    color:#070807;
+    font-size: 40pt;
+    
+}
+
+h2{
+    color: #0ff00f;
+    font:15pt;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+nav {
+    justify-content: center; 
+    display:flex;
+}
+
+nav a {
+    background-color: whitesmoke;
+    text-decoration: underline;
+    font-size: 12pt;
+    color:#2b8f2b;
+    border-color: #2b8f2b;
+    border: solid;
+    border-radius: 20px;
+    border-width: 2px;
+    padding: 6px; 
+    margin: 4px;
+}
+
+nav a:hover{
+    color: #8B635C;
+}
+
+main {
+    font-size: 14pt;
+}
+
+
+img{
+    margin:10px;
+    width:25%;
+}
+
+
+footer p {
+    text-align: center;
+    font-size: 10pt;
+    font-style: italic;
+    margin-top: 10pt;
+}
+
+.education,.technical,.work,.gallary{
+    text-align: left;
+    text-decoration: underline;
+    color: blue;
+
+}
+
+img {
+        border: 1px solid #ddd; 
+        border-radius: 4px; 
+        padding: 5px; 
+        width: 200px; 
+        height: 200px;
+      }
+      
+     
+img:hover {
+        box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+      }
+
+      #mySearch {
+        width: 100%;
+        font-size: 18px;
+        padding: 11px;
+        border: 1px solid #ddd;
+      }
+      
+      /* Style the navigation menu */
+      #myMenu {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+      }
+      
+      /* Style the navigation links */
+      #myMenu li a {
+        padding: 12px;
+        text-decoration: none;
+        color: black;
+        display: block
+      }
+      
+      #myMenu li a:hover {
+        background-color: #eee;
+      }
+
+    
+    
+    .m_search-container{
+        margin:20px;
+    }
+
+   
+
+
+    #m_search-input{
+        background-color: #0ff00f;
+        color: azure;
+        font-size: 20px;
+        border-radius: 20pt;
+    }

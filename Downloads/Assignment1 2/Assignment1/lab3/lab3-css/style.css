@@ -1,0 +1,106 @@
+/*this is the first comment
+Name: Tianyi Chen
+Date: 2.24
+Section:: Web programming
+*/
+
+body {
+    background-color:  #ddd78d; 
+    font-family: sans-serif;
+}
+
+p {
+    color: #1f1f1f;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+header,footer {
+    background-color: #60594D;
+    border:solid;
+    border-width: 4px;
+    border-color: #1f1f1f;
+    padding:10px;
+    color:#93A29B ;
+}
+
+h1 {
+    color:#93A29B;
+    font-size: 40pt;
+    
+}
+
+h2{
+    color: #1f1f1f;
+    font:15pt;
+}
+
+nav {
+    justify-content: center; 
+    display:flex;
+}
+
+nav a {
+    background-color: aliceblue;
+    text-decoration: none;
+    font-size: 12pt;
+    color:#1f1f1f;
+    border: solid;
+    border-radius: 20px;
+    border-width: 2px;
+    padding: 6px; 
+    margin: 4px;
+}
+
+nav a:hover{
+    color: #8B635C;
+}
+
+main {
+    font-size: 14pt;
+}
+
+
+
+blockquote {
+    background-color: #DCBF85;   
+    text-align: center;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 10px;
+}
+
+img{
+    float:right;
+    margin:10px;
+    width:25%;
+}
+
+footer p {
+    text-align: center;
+    font-size: 10pt;
+    font-style: italic;
+    margin-top: 10pt;
+}
+
+.education  {
+ text-decoration: underline;
+ color:blue
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

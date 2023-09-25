@@ -1,0 +1,83 @@
+        <!--this is the first comment-->
+        <!--Name:Tianyi Chen-->
+        <!--Date:Feb.3-->
+        <!--Section:CST8285 section-->
+        <!--Lab:lab2-->
+        <!--File:Customer.html-->
+        <!--Lab objective:create a html page of customer-->
+        <!DOCTYPE html>
+        <html lang="en">
+            <head>
+                <title>Lab 2</title>
+                <meta charset="UTF-8">
+                <meta name="description" content="html page to get customer information">
+                <meta name="keywords" content="customer">
+                <meta name="author" content="Tianyi Chen">
+            </head>
+            <body>
+               <h1>Customer Registration</h1> 
+                <fieldset>
+                    <legend>1. User info</legend>
+                   <label for="fname">First name</label>
+                   <input type="text" id="fname" name="fname" maxlength="10">&nbsp;&nbsp;
+                   <label for="lname">Last name</label>
+                   <input type="text" id="lname" name="lname"><br><br>
+                   <label for="email">E-mail</label>
+                   <input type="text" placeholder="format for e-mail is xxx@yyy.zzz" id="email" name="email" style="height:15px;width:300px"><br><br>
+                   <label for="pword">Password</label>
+                   <input type="text" placeholder="at least 8 characters" id="pword" name="pword" minlength="8">&nbsp;&nbsp;
+                   <label for="pwordrepeat">Password</label>
+                   <input type="text" placeholder="at least 8 characters" id="pwordrepeat" name="pwordrepeat" minlength="8">
+                </fieldset>
+                <br><br>
+                <fieldset>
+                    <legend>2. Location</legend>
+                    <label for="address">Address</label>
+                    <input type="text" id="address" name="address" style="height:15px;width:300px"><br><br>
+                    <label for="city">City</label>
+                    <input type="text" id="city" name="city">&nbsp;&nbsp;
+                    <label for="state">State</label>
+                    <input type="text" id="state" name="state" style="height:15px;width:50px">&nbsp;&nbsp;
+                    <label for="zip">Zip</label>
+                    <input type="text" id="zip" name="zip" style="height:15px;width:100px"><br><br>
+                    <label for="phone">Phone</label>
+                    <input type="text" id="phone" name="phone" placeholder="NNN-NNN-NNNNN">&nbsp;&nbsp;
+                    <label for="country">Country</label>
+                    <input list="countries" id="country" name="country">
+                    <datalist id="countries">
+                        <option value="Canada"></option>
+                        <option value="United Kingdom"></option>
+                        <option value="United States"></option>
+                    </datalist>
+                    <input type="submit">
+                    <p>Continent</p>
+                    <input type="radio" id="cc1" name="continent" value="North America">
+                    <label for="cc1">North America</label>
+                    <div>
+                    <input type="radio" id="cc2" name="continent" value="Europe">
+                    <label for="cc2">Europe</label>
+                    </div>
+                    <div>
+                    <input type="radio" id="cc3" name="continent" value="South America">
+                    <label for="cc3">South America</label>
+                    </div>
+                    <input type="submit">
+                </fieldset>
+                <br>
+                <fieldset>
+                    <legend>3.Personal Details</legend>
+                    <label for="bday">Birth Day </label>
+                    <input type="date" id="bday" name="bday" value="1970-01-01" min="1970-01-01" max="2020-12-31"> &nbsp;&nbsp;
+                    <label for="color">Favorite Color</label> 
+                    <input type="color" id="color" name="color" value="#f6b73c"><br><br>
+                    <label for="art">Interest in Art</label>
+                    <input type="range" id="art" name="art" min="0" max="10">
+                </fieldset>
+                <p>4. All Done</p>
+                    <input type="checkbox" id="agree" name="agree">
+                    <label for="agree">I agree to the</label>
+                    <a href="https://www.wonder.legal/en-ca/modele/terms-conditions-website-mobile-application-en-ca" target="top">term of the site</a> <br><br>
+                   <input type="button"  value="submit">
+                   <input type="button"  value="reset"> <br><br>
+                   <footer id="myFooter">2023CopyRight</footer> 
+            </body>
